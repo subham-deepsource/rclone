@@ -27,7 +27,7 @@ var (
 	errConfigName        = errors.New("config name needs a trailing `:`")
 	errParam             = errors.New("config parameter must end with `,` or `:`")
 	errValue             = errors.New("unquoted config value must end with `,` or `:`")
-	errQuotedValue       = errors.New("un-terminated quoted config value")
+	errQuotedValue       = errors.New("unterminated quoted config value")
 	errAfterQuote        = errors.New("expecting `:` or `,` or another quote after a quote")
 	errSyntax            = errors.New("syntax error in config string")
 
